@@ -9,7 +9,7 @@ MSG_TYPE = String
 # Publish once each second; change this only after the starter node works. Note [Hz] = [s]^(-1)
 PUBLISH_RATE_HZ = 1.0
 # Try changing this text after confirming the starter node runs.
-MESSAGE_CONTENT = "Hello from ROS 2!"
+MESSAGE_CONTENT = "Hello from the publisher!"
 # Try changing the topic name only when the subscriber uses the same name.
 TOPIC_NAME = "chatter"
 NODE_NAME = "talker"
